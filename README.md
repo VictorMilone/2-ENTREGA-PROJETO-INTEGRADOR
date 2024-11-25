@@ -1,6 +1,6 @@
 # ENTREGA 2 - PROJETO INTEGRADOR: DESENVOLVIMENTO DE SISTEMAS ORIENTADO A DISPOSITIVOS MÓVEIS E BASEADOS NA WEB
 
-Repositório é destinado ao Projeto Integrador III do SENAC e o grupo contém 6 integrantes:
+Repositório é destinado à segunda entrega do Projeto Integrador do SENAC e o grupo contém 6 integrantes:
  * Fernando Fraguas Carneiro
  * Jessica Silva Azevedo
  * Kevin De Jesus Souza
