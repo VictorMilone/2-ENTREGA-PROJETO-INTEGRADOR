@@ -8,31 +8,30 @@ Repositório é destinado à segunda entrega do Projeto Integrador do SENAC e o 
  * Romualdo Souza De Souza
  * Victor Hugo Milone
 
-Este projeto visa desenvolver um sistema de gestão de dados para um centro escolar, utilizando a UML como ferramenta de modelagem. Por meio da criação de um diagrama de caso de uso, descrições detalhadas de casos de uso e um diagrama de classes, o sistema será projetado para gerenciar eficientemente informações sobre alunos, professores, disciplinas e matrículas. O objetivo é criar uma solução que seja fácil de usar, adaptável às necessidades da instituição e contribua para uma administração escolar mais eficiente e para a melhoria da qualidade do ensino.
+## Resumo
 
-## Introdução
+O objetivo do trabalho é desenvolver um aplicativo de saúde e fitness que auxilie os usuários a monitorarem e acompanhar suas atividades físicas de maneira simples e acessível, promovendo um estilo de vida ativo e saudável. A metodologia utilizada inclui a integração de diferentes modalidades de exercício e a personalização da experiência do usuário, adaptando-se às suas preferências e necessidades específicas. Os resultados alcançados demonstram que a plataforma pode facilitar o registro e monitoramento das atividades físicas, contribuindo para o aumento da motivação e comprometimento com a prática regular de exercícios. Conclui-se que a combinação entre tecnologia e saúde oferece uma solução eficaz para superar barreiras enfrentadas por muitas pessoas que precisam de ajuda para manter hábitos mais saudáveis em suas rotinas diárias. 
 
-Visão geral do produto O projeto feito pelo grupo foi consiste no processo de modelagem de projeto voltado a gestão de dados de um centro escolar utilizando os conhecimentos sobre UML. Neste tópico serão apresentados os seguintes subtópicos: Contextualização, motivação e objetivo.
+## Conteúdo
 
-## Contextualização e motivação
-Em um centro escolar, a gestão de dados desempenha um papel crucial na organização e na eficiência das operações acadêmicas e administrativas. Com o aumento da digitalização e da automação de processos, a quantidade de dados gerados e armazenados pelas escolas tem aumentado significativamente. Isso inclui informações sobre fornecedores, alunos, professores, disciplinas, notas, entre outros aspectos da vida escolar.
-Além disso, a necessidade de acesso rápido e preciso a essas informações por parte dos gestores, professores, alunos e responsáveis tem se tornado cada vez mais importante para garantir a qualidade do ensino e a satisfação dos envolvidos no processo educacional. Dessa forma, a implementação de um sistema de gestão de dados eficiente e integrado se torna essencial para o bom funcionamento da escola.
-A motivação por trás deste projeto é abordar esses desafios por meio da implementação de um sistema de gestão de dados baseado em UML (Unified Modeling Language). A UML oferece uma abordagem padronizada e visualmente intuitiva para a modelagem de sistemas, o que facilita a compreensão e a comunicação entre os desenvolvedores, os usuários e outras partes interessadas. Além disso, a utilização da UML pode ajudar a identificar e mitigar possíveis problemas de integração e consistência de dados desde as fases iniciais do projeto, contribuindo para o desenvolvimento de um sistema mais robusto e eficiente.
+1.	Banco de Dados usado e configurações	5
+1.1.	Configuração do Banco de Dados	5
+1.2.	Criação de Tabelas	5
+1.3.	Explicação das Tabelas	6
+1.4.	Scrits de Operações CRUD	6
+1.5.	Configuração do Banco de Dados	7
+2.	Qual arquitetura de software foi usada	7
+2.1.	Arquitetura Cliente-Servidor Local (Offline)	8
+3.	Quais APIs foram usadas	8
+3.1.	Apache Cordova API	8
+3.2.	SQLite Plugin para Cordova	8
+3.3.	API de Navegação HTML (DOM)	9
+4.	Resumo das APIs utilizadas:	9
+4.1.	Cordova API	9
+4.2.	SQLite Plugin	10
+4.3.	API de Navegação HTML (DOM)	10
 
-## Objetivos
-O objetivo deste projeto é desenvolver um sistema de gestão de dados para um centro escolar, o projeto incluirá a criação de um diagrama de caso de uso, que identificará os atores envolvidos no sistema e os casos de uso principais. Além disso, serão elaboradas descrições detalhadas de cada caso de uso, especificando os passos necessários para sua execução e sua pré-condições e pós-condições. Por fim, será desenvolvido um diagrama de classes, que representará as classes do sistema e seus relacionamentos, auxiliando no projeto e na implementação do banco de dados. O objetivo é criar um sistema eficiente, fácil de usar e adaptável, que atenda às necessidades de gestão de dados do centro escolar.
 
 ## Conclusão
-Em conclusão, o desenvolvimento de um sistema de gestão de dados utilizando UML para um centro escolar representa uma oportunidade significativa para melhorar a eficiência e a qualidade dos processos educacionais e administrativos. A utilização da UML como ferramenta de modelagem permite uma representação visual clara e precisa dos requisitos e funcionalidades do sistema, facilitando o entendimento e a comunicação entre os desenvolvedores e os usuários. Além disso, a modelagem adequada dos dados, por meio de diagramas de classes e casos de uso, contribui para a criação de um sistema robusto, adaptável e de fácil manutenção.
-
-
-## Link do Protótipo de Interface:
-https://marvelapp.com/prototype/10d1f8d4/screen/94600976?utm_campaign=sendgrid-sends&utm_content=backend-email-message&utm_medium=mail&utm_source=sendgrid
-
-## Diagrama de Classe
-
-![image](https://github.com/VictorMilone/Projeto-integrador-SENAC/assets/124219983/62703bc6-8d43-4921-aa33-9d46aed614f1)
-
-## Diagrama de Casos de Uso
-
-![image](https://github.com/VictorMilone/Projeto-integrador-SENAC/assets/124219983/07c1b5b2-9e4a-4bd7-b603-8edaa08e804b)
+Em conclusão, percebe-se a crescente preocupação com a saúde e o bem-estar de um público que tem impulsionado a busca por um estilo de vida mais saudável. No entanto, há desafios para as pessoas manterem uma rotina consistente de atividades físicas, devido a diversos motivos. Com a evolução tecnológica, surgem novas oportunidades de superar essas barreiras. 
+Nesse sentido, visando esse público que se preocupa com o bem-estar, o desenvolvimento do aplicativo de saúde e fitness preenche essa lacuna, proporcionando uma plataforma simples e acessível para monitorar e acompanhar as atividades físicas, sendo uma resposta direta à demanda crescente por soluções inteligentes que ofereçam mais controle e organização da rotina. Assim sendo, o aplicativo atende os seus objetivos ao integrar diferentes modalidades de exercício e oferecer uma experiência personalizada, levando motivação e comprometimento dos usuários, ajudando-os a alcançar a alcançar suas metas de saúde e a manter hábitos mais saudáveis e organizados.
