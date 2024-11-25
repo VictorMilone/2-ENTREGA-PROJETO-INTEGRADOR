@@ -22,6 +22,7 @@ O objetivo do trabalho é desenvolver um aplicativo de saúde e fitness que auxi
 1.5.	Configuração do Banco de Dados	;
 
 2.	Qual arquitetura de software foi usada	;
+   
    2.1.	Arquitetura Cliente-Servidor Local (Offline)	;
 
 4.	Quais APIs foram usadas	;   
