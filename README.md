@@ -14,26 +14,22 @@ O objetivo do trabalho é desenvolver um aplicativo de saúde e fitness que auxi
 
 ## Conteúdo
 
-1.	Banco de Dados usado e configurações	;
-   
+1.	Banco de Dados usado e configurações	;   
 1.1.	Configuração do Banco de Dados	;
 1.2.	Criação de Tabelas	;
 1.3.	Explicação das Tabelas	;
 1.4.	Scrits de Operações CRUD	;
 1.5.	Configuração do Banco de Dados	;
 
-2.	Qual arquitetura de software foi usada	;
-   
+2.	Qual arquitetura de software foi usada	; 
 2.1.	Arquitetura Cliente-Servidor Local (Offline)	;
 
-3.	Quais APIs foram usadas	;
-   
+3.	Quais APIs foram usadas	;   
 3.1.	Apache Cordova API	;
 3.2.	SQLite Plugin para Cordova	;
 3.3.	API de Navegação HTML (DOM)	;
 
-4.	Resumo das APIs utilizadas:
-   
+4.	Resumo das APIs utilizadas:   
 4.1.	Cordova API	;
 4.2.	SQLite Plugin	;
 4.3.	API de Navegação HTML (DOM)	;
