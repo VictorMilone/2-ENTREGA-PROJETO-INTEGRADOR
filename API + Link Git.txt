@@ -1,0 +1,13 @@
+API:
+
+Apache Cordova API
+
+SQLite Plugin para Cordova
+
+API de Navegação HTML (DOM)
+
+
+Link do Git:
+
+https://github.com/VictorMilone/2-ENTREGA-PROJETO-INTEGRADOR/tree/main
+

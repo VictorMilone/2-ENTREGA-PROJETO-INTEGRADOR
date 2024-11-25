@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Week</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Formulário de Login -->
+        <div id="loginForm">
+            <h1>Login</h1>
+            <input id="emailLogin" type="email" placeholder="Email">
+            <input id="senhaLogin" type="password" placeholder="Senha">
+            <button onclick="login()">Entrar</button>
+            <p>Não tem uma conta? <a href="#" onclick="showCadastroForm()">Cadastre-se</a></p>
+        </div>
+
+        <!-- Formulário de Cadastro -->
+        <div id="cadastroForm" style="display: none;">
+            <h1>Cadastro</h1>
+            <input id="nomeCadastro" type="text" placeholder="Nome">
+            <input id="emailCadastro" type="email" placeholder="Email">
+            <input id="senhaCadastro" type="password" placeholder="Senha">
+            <button onclick="cadastrar()">Cadastrar</button>
+            <button onclick="showLoginForm()">Voltar</button>
+        </div>
+
+        <!-- Página de Bem-vindo -->
+        <div id="bemVindoForm" style="display: none;">
+            <h1>Seja bem-vindo, <span id="userName"></span>!</h1>
+            <button onclick="showObjetivoForm()">Ir para Objetivos</button>
+            <button onclick="showAlterarCadastroForm()">Alterar Cadastro</button>
+            <button onclick="showAnotacoesForm()">Anotações</button>
+            <button onclick="logout()">Sair</button>
+        </div>
+
+        <!-- Formulário de Alteração de Cadastro -->
+        <div id="alterarCadastroForm" style="display: none;">
+            <h1>Alterar Cadastro</h1>
+            <input id="alterarNome" type="text" placeholder="Novo Nome">
+            <input id="alterarEmail" type="email" placeholder="Novo Email">
+            <input id="alterarSenha" type="password" placeholder="Nova Senha">
+            <button onclick="alterarCadastro()">Salvar Alterações</button>
+            <button onclick="showBemVindoForm()">Voltar</button>
+        </div>
+
+        <!-- Página de Objetivos -->
+        <div id="objetivoForm" style="display: none;">
+            <h1>Objetivos</h1>
+            <div id="objetivoNaoEscolhido">
+                <select id="objetivoSelect">
+                    <option value="ganhar massa muscular">Ganhar Massa Muscular</option>
+                    <option value="manter peso">Manter Peso</option>
+                    <option value="emagrecer">Emagrecer</option>
+                </select>
+                <button onclick="adicionarObjetivo()">Confirmar Objetivo</button>
+            </div>
+            <div id="objetivoEscolhido" style="display: none;">
+                <h2>Seu objetivo atual:</h2>
+                <p id="objetivoEscolhidoTexto"></p>
+                <button onclick="showAlterarObjetivoForm()">Alterar Objetivo</button>
+            </div>
+            <div id="orientacoes" style="display: none;">
+                <h3>Treino e Dieta</h3>
+                <p id="orientacaoTexto"></p>
+            </div>
+            <button onclick="showBemVindoForm()">Voltar</button>
+        </div>
+
+        <!-- Página de Anotações -->
+        <div id="anotacoesForm" style="display: none;">
+            <h1>Anotações</h1>
+            <textarea id="anotacaoInput" placeholder="Digite sua anotação aqui..."></textarea>
+            <button onclick="adicionarAnotacao()">Salvar Anotação</button>
+            <ul id="listaAnotacoes"></ul>
+            <button onclick="showBemVindoForm()">Voltar</button>
+        </div>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
